@@ -1,9 +1,9 @@
-import React from 'react'
+import { UserButton } from "@clerk/react"
 
 const Home = () => {
   return (
     <div>
-      Home
+      <UserButton />
     </div>
   )
 }
