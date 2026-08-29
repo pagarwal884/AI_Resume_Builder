@@ -1,9 +1,9 @@
-import React from 'react'
+import { SignIn } from '@clerk/react'
 
 const SignInPage = () => {
   return (
-    <div>
-      Sign In
+    <div className='flex justify-center my-20 items-center'>
+      <SignIn  />
     </div>
   )
 }
